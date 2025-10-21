@@ -1,23 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <div class="todo-app">
-            <img src="/img/student-logo.jpg">
-            <h2>M Zafran K.A</h2>
-            <p>President of Indonesia</p>
+      <div class="todo-app">
+        <div class="title">
+          <img src="/img/student-logo.jpg" />
+          <div>
+            <h2>Muhammad Zafran Kamil A</h2>
+            <p>Next President of Indonesia</p>
+          </div>
         </div>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add your text here" />
+          <button>Add</button>
+        </div>
+        <div class="list">
+          <ul id="list-container">
+            <li>Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li>
+            <li>Task 4</li>
+            <li>Task 5</li>
+          </ul>
+          <p>Item Checked</p>
+          <ul id="list-done">
+            <li>Task 1 done</li>
+            <li>Task 2 done</li>
+            <li>Task 3 done</li>
+            <li>Task 4 done</li>
+            <li>Task 5 done</li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <script src="/script.js"></script>
-</body>
-
+  </body>
 </html>
